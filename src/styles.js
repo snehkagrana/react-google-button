@@ -8,7 +8,7 @@ const baseStyle = {
   fontSize: '16px',
   lineHeight: '48px',
   display: 'block',
-  borderRadius: '1px',
+  borderRadius: '8px',  // Changed from 1px to 8px
   transition: 'background-color .218s, border-color .218s, box-shadow .218s',
   fontFamily: 'Roboto,arial,sans-serif',
   cursor: 'pointer',
@@ -37,7 +37,7 @@ export const iconStyle = {
   marginLeft: '1px',
   float: 'left',
   backgroundColor: '#fff',
-  borderRadius: '1px',
+  borderRadius: '8px',  // Changed from 1px to 8px
   whiteSpace: 'nowrap'
 }
 
@@ -65,3 +65,4 @@ export const disabledStyle = {
 export const disabledIconStyle = {
   backgroundColor: 'transparent'
 }
+
